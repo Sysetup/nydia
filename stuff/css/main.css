@@ -3,8 +3,6 @@
     src: url('../fonts/neuropol.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 } 
 html {
-    background-color: #000;
-    color: green;
     display: table;
     height: 100%;
     text-align: center;
@@ -19,6 +17,11 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-
     font-size: 12px;
+}
+h1, .h1 {
+    font-size: 2.5rem;
+}
+h3, .h3 {
+    font-size: 1.75rem;
 }
