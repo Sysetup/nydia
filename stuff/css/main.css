@@ -1,27 +1,28 @@
 @font-face {
-    font-family: 'neuropol';
-    src: url('../fonts/neuropol.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-} 
+  font-family: "neuropol";
+  src: url("../fonts/neuropol.ttf") format("truetype");
+  font-display: block;
+}
 html {
-    display: table;
-    height: 100%;
-    text-align: center;
-    width: 100%;
+  display: table;
+  height: 100%;
+  text-align: center;
+  width: 100%;
 }
 body {
-    font-family: "neuropol";
-    display: table-cell;
-    vertical-align: middle;
+  font-family: "neuropol";
+  display: table-cell;
+  vertical-align: middle;
 }
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    font-size: 12px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-size: 12px;
 }
 h1, .h1 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 h3, .h3 {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
